@@ -40,8 +40,6 @@ export const sendMessage = async (
     messages: prompt,
   });
 
-  console.log(prompt);
-
   const message: ChatCompletionResponseMessage = data.choices[0].message;
 
   return {

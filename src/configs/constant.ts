@@ -13,8 +13,8 @@ export const PREFIXES = [
 
 export const REMOVABLE_PREFIXES = [];
 
-export const OPENAI_MODEL = 'gpt-4';
+export const OPENAI_MODEL = 'gpt-3.5-turbo';
 
-export const DEFAULT_SYSTEM_MESSAGE = `You are ChatGPT, a large language model trained by OpenAI. Answer as concisely as possible.\nCurrent date: ${new Date().toISOString()}`;
+export const DEFAULT_SYSTEM_MESSAGE = 'You are ChatGPT. Answer as concisely as possible';
 
 export const RSS_FEEDS = ['https://citinewsroom.com/feed'];
